@@ -56,5 +56,5 @@ kubectl get all
 Now Open minikube-nodes-ip:40000 and proceed with installation wizard:-
 ![8](https://user-images.githubusercontent.com/66985251/92640209-94c67000-f2fa-11ea-82b7-5110898d9841.jpg)
 ![1](https://user-images.githubusercontent.com/66985251/92640326-c0495a80-f2fa-11ea-8bcc-8e0a5ab5ee7d.jpg)
-![2](https://user-images.githubusercontent.com/66985251/92640389-d7884800-f2fa-11ea-8796-1ae7503c87a0.jpg)
+![2](https://user-images.githubusercontent.com/66985251/92640826-7b71f380-f2fb-11ea-8588-cea3649def6f.jpg)
 Thanks Alot for Taking Your Time..
