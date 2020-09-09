@@ -33,3 +33,5 @@ Minikube is an open-source tool that helps to run Kubernetes on a local computer
 Let’s start It will launch the Wordpress Application. Wordpress.tf file:-
 ![6](https://user-images.githubusercontent.com/66985251/92638825-89724500-f2f8-11ea-859b-e28d1e388545.jpg)
 ![5](https://user-images.githubusercontent.com/66985251/92639086-f5ed4400-f2f8-11ea-94ec-2fcea15f5efc.jpg)
+2.It will create the RDS on top of AWS. databasesql.tf file:-
+![4](https://user-images.githubusercontent.com/66985251/92639508-888de300-f2f9-11ea-933e-dd1a6f744544.jpg)
