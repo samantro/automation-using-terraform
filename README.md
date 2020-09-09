@@ -35,3 +35,26 @@ Let’s start It will launch the Wordpress Application. Wordpress.tf file:-
 ![5](https://user-images.githubusercontent.com/66985251/92639086-f5ed4400-f2f8-11ea-94ec-2fcea15f5efc.jpg)
 2.It will create the RDS on top of AWS. databasesql.tf file:-
 ![4](https://user-images.githubusercontent.com/66985251/92639508-888de300-f2f9-11ea-933e-dd1a6f744544.jpg)
+3.It will provide the IP to connect to Wordpress. main.tf files:- 
+![3](https://user-images.githubusercontent.com/66985251/92639669-ca1e8e00-f2f9-11ea-9a8c-7e1dc0ae51c4.jpg)
+After writing the terraform code. We have to run the command:
+
+terraform init
+
+terraform apply --auto-approve
+![11](https://user-images.githubusercontent.com/66985251/92639950-2da8bb80-f2fa-11ea-9193-10e955f1553f.jpg)
+If you get everything green then you are on the right track and everything works fine. Also, we have deployed WordPress as a container on the top of Minikube.
+![10](https://user-images.githubusercontent.com/66985251/92640048-4f09a780-f2fa-11ea-943a-3a8286ed0903.jpg)
+Now to get the IP for WordPress. In the command line type:
+
+minikube ip
+
+minikube service list
+
+kubectl get all
+![7](https://user-images.githubusercontent.com/66985251/92639788-f2a68800-f2f9-11ea-8adc-f0a403da4a38.jpg)
+Now Open minikube-nodes-ip:40000 and proceed with installation wizard:-
+![8](https://user-images.githubusercontent.com/66985251/92640209-94c67000-f2fa-11ea-82b7-5110898d9841.jpg)
+![1](https://user-images.githubusercontent.com/66985251/92640326-c0495a80-f2fa-11ea-8bcc-8e0a5ab5ee7d.jpg)
+![2](https://user-images.githubusercontent.com/66985251/92640389-d7884800-f2fa-11ea-8796-1ae7503c87a0.jpg)
+Thanks Alot for Taking Your Time..
